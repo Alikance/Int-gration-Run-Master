@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intégration Run</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Run</title>
+    <link rel="stylesheet" href="./Assets/Styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -12,104 +13,77 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
   <body>
-    <header>
-      <div class="header-left">
-        <h1>Run</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae
-          maiores quisquam minus illum doloribus dolorem impedit quos, esse
-          quasi! Ad adipisci debitis quisquam dignissimos architecto accusamus
-          laborum animi aspernatur.
-        </p>
-        <button>Get Started</button>
-      </div>
-      <div class="header-right-contenair">
-        <div class="header-right-img">
-          <img
-            src="./img/banner.jpg"
-            center
-            cover
-            fixed
-            alt="Piste de course"
-          />
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="middle-left-contenair">
-        <div class="middle-left-img">
-          <img src="./img/img-left.jpg" center cover fixed alt="Forêt" />
-        </div>
-      </div>
-      <div class="middle-right">
-        <h2>Magna etiam feugiat</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-          dolorum, quidem autem repudiandae maxime distinctio. Sit accusamus,
-          laudantium rerum vitae maiores cum. Ducimus, aperiam deleniti quam
-          sint rerum velit magni quia iure facere, corrupti eligendi fuga?
-          Dolore sint repellendus officiis.
-        </p>
-        <button>Learn More</button>
-      </div>
-    </main>
-    <section>
-      <div class="bottom">
-        <div class="bottom-left">
-          <h2>Tempus Adipiscing</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            perferendis consequuntur dolor. Unde tempora velit aliquam animi
-            delectus accusantium accusamus similique itaque nisi amet repellat
-            architecto, exercitationem, recusandae, error est? Quaerat ipsum,
-            quo totam quam delectus sapiente eos magni doloremque.
-          </p>
-          <button>Learn More</button>
-        </div>
-        <div class="bottom-right">
-          <img
-            src="./img/img-right.jpg"
-            center
-            cover
-            fixed
-            alt="Fille qui court sous un pont"
-          />
-        </div>
-      </div>
-    </section>
+<header>
+  <div class="container">
+    <div>
+      <H1>Run</H1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam rerum! Praesentium at voluptas, eveniet ex magnam ad deserunt hic harum quo soluta architecto doloremque esse, impedit consequuntur voluptatum facere.</p>
+      <a href="#"class="button">Get Started</a>
+    </div>
+  </div>
+  <div class="image-banner">
+  </div>
+</header>
+<section class="section1">
+  <div class="img"></div>
+  <div class="container">
+    <div>
+      <H2>Magna etiam feugiat</H2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, unde? A iste maiores temporibus placeat sequi, nesciunt accusamus ad culpa corrupti! Ad eius eligendi ex provident, modi aut tempore corporis.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
+</section>
+<section class="section-2">
+  <div class="contenair">
+    <H2>Tempus Adiscing</H2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto placeat ullam voluptates saepe vero quas. Ducimus sunt aspernatur voluptates error, excepturi rerum eligendi modi eum, obcaecati incidunt in laboriosam suscipit, facilis similique commodi dolorem hic ratione minus quibusdam? Et!</p>
+    <a href="#" class="button">Learn More</a>
+  </div>
+  <div class="img">
 
-    <section>
-      <div class="formulaire">
-        <h3>Get In Touch</h3>
-        <form action="#">
-          <div class="form-grid">
-            <label for="Name">Name</label>
-            <input type="text" id="Name" />
-
-            <label for="email">Email</label>
-            <input type="text" id="email" />
-
-            <label for="message">Message</label>
-            <textarea id="message"></textarea>
-          </div>
-          <input type="submit" class="button" value="Send Message" />
-        </form>
+  </div>
+</section>
+<section class="contact">
+  <H2>Get In Touch</H2>
+  <form action="#">
+    <div class="form-grid">
+      <div>
+        <label for="Name">Name</label>
+        <input type="text" id="name">
       </div>
-    </section>
-    <footer>
-      <div class="footer-contenair">
-        <div class="logos">
-          <ul>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-linkedin"></i></li>
-            <li><i class="fa-solid fa-envelope"></i></li>
-          </ul>
-        </div>
+      <div>
+        <label for="Email">Email</label>
+        <input type="text" id="Email">
       </div>
-    </footer>
+      <div class="texte">
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+      </div>
+    </div>
+    <input type="submit" class="button" value="Send Message">
+  </form>
+</section>
+<footer>
+  <ul>
+    <li>
+      <a href="#">
+        <i class="fa-brands fa-twitter"></i></a>
+    </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </li>
+  </ul>
+</footer>
   </body>
 </html>
